@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Happy Birthday Sir Irfan 🎂</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- Background Hearts -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- Confetti -->
+  <canvas id="confetti"></canvas>
+
+  <main class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+      <div class="crown">👑</div>
+
+      <h1 class="name">SIR IRFAN</h1>
+
+      <p class="subtitle">A Great Teacher & An Even Better Person! ⭐</p>
+
+      <div class="cake-wrap">
+        <div class="cake">🎂</div>
+      </div>
+
+      <h2 class="wish-title">Happy Birthday, Sir! 🎉</h2>
+
+    </section>
+
+
+    <!-- Message Card -->
+    <section class="card">
+
+      <p class="message">
+        Hey Sir! We couldn't let your birthday pass with just a simple message.
+        <span class="highlight">Happy Birthday!</span>
+        🎉 Wishing you a fantastic day filled with happiness, laughter,
+        and plenty of good memories.
+      </p>
+
+      <p class="message">
+        Thank you for always teaching us, guiding us, and patiently dealing
+        with all our questions, mistakes, and of course... our endless excuses. 😂
+      </p>
+
+      <p class="message">
+        You're not just a teacher, but someone we genuinely respect and appreciate.
+        Your hard work, dedication, and the way you teach make a real difference.
+        ⭐
+      </p>
+
+      <p class="message">
+        May this year bring you greater success, good health, happiness,
+        and everything you've been working for.
+        You truly deserve it, Sir! 🙌
+      </p>
+
+      <p class="message italic">
+        And Sir... just for today, chutti mil jati tooo! 😄🎂
+      </p>
+
+    </section>
+
+
+    <!-- Traits Section -->
+    <section class="traits">
+
+      <div class="trait">📚 Knowledgeable</div>
+
+      <div class="trait">😂 Funny</div>
+
+      <div class="trait">🎯 Dedicated</div>
+
+      <div class="trait">⭐ Great Teacher</div>
+
+    </section>
+
+
+    <!-- Final Wish -->
+    <section class="final-wish">
+
+      <p>Enjoy your special day, Sir!</p>
+
+      <p>
+        Keep inspiring, keep teaching, and keep being awesome. 🎁
+      </p>
+
+      <div class="balloons">🎈🎈🎈</div>
+
+    </section>
+
+
+    <!-- Celebration Button -->
+    <button class="wish-btn" onclick="triggerCelebration()">
+      🎊 Celebrate Sir!
+    </button>
+
+  </main>
+
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+
+    <source src="song/midnightcall.mp4" type="video/mp4"/>
+
+  </audio>
+
+
+  <!-- Music Toggle Button -->
+  <button
+    class="music-btn"
+    id="musicBtn"
+    onclick="toggleMusic()"
+    title="Toggle music">
+    🎵
+  </button>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
+```
